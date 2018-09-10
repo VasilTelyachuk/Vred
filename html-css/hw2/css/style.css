@@ -3,49 +3,73 @@ body {
     color: #626262;
     font-size: 14;
     line-height: 24;
-    margin: auto;
+    /* width: 1200px;
+    height: 2079px; */
 }
-.main-menu {
-    list-style: none;
-    width: 573px;
-    margin: auto;
-    padding: 77px 166px 104px 166px;
+.wrapper {
+    width: 901px;
+    margin: auto;   
 }
-.main-menu-item {
+.main-header {
+    list-style: none;  
+    width: 576px;
+    /* height: 33px; */
+    margin: auto;
+    padding-top: 77px;
+    padding-bottom: 102px;  
+}
+.main-nav {
+    
+}
+.main-menu-item  {
     text-transform: uppercase;
     font-size: 14;
     display: inline-block; 
-    margin-right: 96px;
+    margin-right: 56px;
+    /* height: 19px; */
 }
 .main-menu-link {
     text-decoration: none;
-    display: block;
     text-align: center;
 }
-.main-content {
-    margin: auto;
-    width: 901px
- }
- .lifestyle {
-padding-bottom: 34px;
+article {
+    display: inline-block;
+    width: 420px;
+    margin: 0px;
+    padding: 0px;
+}
+.content-left {
+    margin-right: 56px;
+}
+.img {
+    margin-bottom: 32px;
+    width: 420px;
+    /* height: 321px; */
 }
 .title {
     font-family: 'Ubuntu', sans-serif;
     line-height: 17;
     text-transform: uppercase;
     columns: #b4ad9e;
+    margin-bottom: 30px;
+    /* height: 16px; */
 } 
 .info-title {
     font-size: 30;
-    line-height: 36
+    line-height: 36;
+    margin-bottom: 42px;
+    /* height: 40px; */
 }
 .content, p {
-
+    margin-bottom: 135px;
+    /* height: 72px; */
 }
 
 .button {
-    font-size: 20
+    font-size: 20;
+    margin: auto;
 }
-* {
-    outline: 1px solid red;
+.load { 
+    width: 164 ;
+    height: 60;
 }
