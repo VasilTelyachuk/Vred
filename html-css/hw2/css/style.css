@@ -1,32 +1,28 @@
 body {
     font-family: "Playfair Display", serif;
     color: #626262;
-    font-size: 14;
-    line-height: 24;
-    /* width: 1200px;
-    height: 2079px; */
+    font-size: 14px;
+    line-height: 24px; 
 }
 .wrapper {
     width: 901px;
-    margin: auto;   
+    height: 2079px;
+    margin: auto;  
 }
 .main-header {
     list-style: none;  
     width: 576px;
-    /* height: 33px; */
+    height: 33px;
     margin: auto;
     padding-top: 77px;
     padding-bottom: 102px;  
 }
-.main-nav {
-    
-}
 .main-menu-item  {
     text-transform: uppercase;
-    font-size: 14;
+    font-size: 14px; 
     display: inline-block; 
     margin-right: 56px;
-    /* height: 19px; */
+    height: 19px;
 }
 .main-menu-link {
     text-decoration: none;
@@ -42,34 +38,40 @@ article {
     margin-right: 56px;
 }
 .img {
-    margin-bottom: 32px;
+    margin-bottom: 30px;
     width: 420px;
-    /* height: 321px; */
+    height: 321px;
 }
 .title {
     font-family: 'Ubuntu', sans-serif;
-    line-height: 17;
+    /* line-height: 17; */
     text-transform: uppercase;
     columns: #b4ad9e;
     margin-bottom: 30px;
-    /* height: 16px; */
+    height: 20px;
 } 
 .info-title {
-    font-size: 30;
-    line-height: 36;
+    font-size: 30px;
+    line-height: 36px;
     margin-bottom: 42px;
-    /* height: 40px; */
+    height: 38px;
 }
 .content, p {
     margin-bottom: 135px;
-    /* height: 72px; */
+    height: 72px;
 }
 
 .button {
-    font-size: 20;
-    margin: auto;
+    text-align: center;
 }
 .load { 
-    width: 164 ;
-    height: 60;
+    width: 164px;
+    height: 61px;
+    margin-bottom: 72px;
+    border:solid 1px #dddcd7;
+    color: #626262;
+    background: #ffffff;
+    font-size: 20px;
+    
+    
 }
