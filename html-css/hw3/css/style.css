@@ -1,4 +1,48 @@
+.wrapper {
+width: 1110px;
+margin: 0 auto;
+}
 .page-header {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    background: red;
+}
+.logotipe {
+    float: left;
+    margin: 0 auto;
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
+}
+.main-menu {
+    margin: 0 auto;
+}
+.main-menu-item {
+    list-style: none;
+    width: 464px;
+}
+.main-menu-link {
+    float: right;
+    text-decoration: none;     
+}
+.main-menu-link:not(:nth-child(6)) {
+    margin-right: 34px;
+}
+.main {
+margin: 0 auto;
+}
+h1 {
+text-align: center;
+margin: 0 auto;
+}
+h1::after {
+content: '';
+width: 165px;
+height: 7px;
+background: #1abc9c;
+display: block;
+margin: auto;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
 }
