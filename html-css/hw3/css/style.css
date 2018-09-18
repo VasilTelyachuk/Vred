@@ -20,13 +20,15 @@ margin: 0 auto;
 }
 .main-menu-link {
     float: right;
-    text-decoration: none;     
+    text-decoration: none;
 }
-.main-menu-link:not(:nth-child(6)) {
+.main-menu-link:not(:nth-child(5)) {
     margin-right: 34px;
 }
 .main {
 margin: 0 auto;
+}
+.featured products {
 }
 h1 {
 text-align: center;
@@ -39,6 +41,37 @@ height: 7px;
 background: #1abc9c;
 display: block;
 margin: auto;
+}
+.item {
+    width: 255px;
+    height: 322px;
+    float: left;
+    background-color: #e9f0fd;
+
+}
+/* .item:not(:nth-child(5n,9n)) {
+margin-right: 30px;
+}
+.item::nth-child(4n) {
+margin-bottom: 30px;
+} */
+.item p {
+    margin: 0px;
+    font-size: 18px;
+    background-color: #323232;
+    color: white;
+    width: 255px;
+    height: 40px;
+    text-align: center;
+    
+}
+.item-name span {
+    font-size: 18px;
+    background-color: #8c8c8c;
+    color: white;
+    float: right;
+    width: 54px;
+    height: 40px;
 }
 
 .clearfix::after {
