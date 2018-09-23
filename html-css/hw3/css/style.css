@@ -3,36 +3,53 @@ width: 1110px;
 margin: 0 auto;
 }
 .page-header {
-    background: red;
+    margin-bottom: 102px;
+    padding-top: 30px;
 }
 .logotipe {
     float: left;
     margin: 0 auto;
-    /* font-family: 'Roboto', sans-serif;
-    font-family: 'Open Sans', sans-serif; */
+    margin-right: 515px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    color: #1abc9c;
+    font-weight: 900;
 }
 .main-menu {
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
 }
 .main-menu-item {
     list-style: none;
     width: 464px;
 }
 .main-menu-link {
-    float: right;
+    font-size: 16px;
+    float: left;
     text-decoration: none;
+    color: black;
+    padding: 7px 0px;
 }
-.main-menu-link:not(:nth-child(5)) {
+.main-menu-link:hover {
+    color: #4ec6ab;
+}
+.main-menu-link:not(:nth-child(12n)) {
     margin-right: 34px;
 }
 .main {
 margin: 0 auto;
 }
-.featured products {
-}
 h1 {
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
 text-align: center;
+font-size: 48px;
 margin: 0 auto;
+margin-bottom: 88px;
+color: #515151;
 }
 h1::after {
 content: '';
@@ -47,33 +64,140 @@ margin: auto;
     height: 322px;
     float: left;
     background-color: #e9f0fd;
-
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
 }
-/* .item:not(:nth-child(5n,9n)) {
+.item:hover span {
+    background-color: #7fd9c7;
+}
+.item:hover p {
+    background-color: #1abc9c;
+}
+.item:not(:nth-child(4n)) {
 margin-right: 30px;
 }
-.item::nth-child(4n) {
+.item:nth-child(-n+4) {
 margin-bottom: 30px;
-} */
+}
 .item p {
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
     font-size: 18px;
     background-color: #323232;
     color: white;
     width: 255px;
-    height: 40px;
     text-align: center;
+    line-height: 40px;
     
 }
 .item-name span {
-    font-size: 18px;
     background-color: #8c8c8c;
-    color: white;
     float: right;
     width: 54px;
-    height: 40px;
 }
-
+.news-title {
+margin: 0 auto;
+text-align: center;
+font-size: 48px;
+font-family: 'Roboto',sans-serif;
+font-weight: 900;
+color: #515151;
+padding: 100px 0 78px 0;
+}
+h2::after {
+    content: '';
+    width: 165px;
+    height: 7px;
+    background: #1abc9c;
+    display: block;
+    margin: auto;
+    }
+.news {
+float: left;
+margin: 0 auto;
+}
+.text1, .text2, .text3 {
+    width: 350px;
+    font-size: 18px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; 
+    line-height: 26px;
+    margin: 0 0 28px 0;
+}
+.info1, .info2, .info3 {
+    width: 350px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height: 26px;
+    margin: 0 0 18px 0;
+}
+.text1::before {
+    content: '';
+    width: 350px;
+    height: 264px;
+    display: block;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center
+}
+.text1::after {
+    content: '';
+    width: 136px;
+    height: 3px;
+    background: #1abc9c;
+    display: block;
+}
+.text2::before {
+    content: '';
+    width: 350px;
+    height: 264px;
+    display: block;
+    background-image: url(../img/img2.jpg);
+    background-size: cover;
+    background-position: center
+}
+.text2::after {
+    content: '';
+    width: 136px;
+    height: 3px;
+    background: #1abc9c;
+    display: block;
+}
+.text3::before {
+    content: '';
+    width: 350px;
+    height: 264px;
+    display: block;
+    background-image: url(../img/img3.jpg);
+    background-size: cover;
+    background-position: center
+}
+.text3::after {
+    content: '';
+    width: 136px;
+    height: 3px;
+    background: #1abc9c;
+    display: block;
+}
+.news:not(:nth-child(3n)) {
+margin-right: 30px;
+}
+.button {
+    width: 160px;
+    height: 50px;
+    color: white;
+    background: #4ec6ab;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+.main {
+    padding-bottom: 82px;
+}
 .clearfix::after {
     display: table;
     content: "";
