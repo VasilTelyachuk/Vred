@@ -1,19 +1,19 @@
 .wrapper {
 width: 1110px;
 margin: 0 auto;
+padding: 30px 0 82px 0;
 }
 .page-header {
     margin-bottom: 102px;
-    padding-top: 30px;
 }
 .logotipe {
     float: left;
     margin: 0 auto;
-    margin-right: 515px;
+    /* margin-right: 515px; */
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
-.logo {
+.logotipe::first-letter {
     color: #1abc9c;
     font-weight: 900;
 }
@@ -24,40 +24,38 @@ margin: 0 auto;
 }
 .main-menu-item {
     list-style: none;
-    width: 464px;
+    font-size: 16px;
+    float: right;
+    padding: 7px 0px;
 }
 .main-menu-link {
-    font-size: 16px;
-    float: left;
     text-decoration: none;
     color: black;
-    padding: 7px 0px;
 }
 .main-menu-link:hover {
     color: #4ec6ab;
 }
-.main-menu-link:not(:nth-child(12n)) {
+.main-menu-item:not(:nth-child(1)) {
     margin-right: 34px;
 }
 .main {
 margin: 0 auto;
 }
-h1 {
+.title, h2 {
 font-family: 'Roboto', sans-serif;
 font-weight: 900;
 text-align: center;
 font-size: 48px;
-margin: 0 auto;
-margin-bottom: 88px;
+margin: 0 0 88px 0;
 color: #515151;
 }
-h1::after {
+h2::after {
 content: '';
 width: 165px;
 height: 7px;
 background: #1abc9c;
 display: block;
-margin:28px auto 0px;
+margin:26px auto 0;
 }
 .item {
     width: 255px;
@@ -66,6 +64,10 @@ margin:28px auto 0px;
     background-color: #e9f0fd;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+}
+.item-link {
+    text-decoration: none;
+    color: white;
 }
 .item:hover span {
     background-color: #7fd9c7;
@@ -79,6 +81,9 @@ margin-right: 30px;
 .item:nth-child(-n+4) {
 margin-bottom: 30px;
 }
+.img-item {
+    display: block;
+}
 .item p {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
@@ -87,34 +92,30 @@ margin-bottom: 30px;
     color: white;
     width: 255px;
     text-align: center;
-    line-height: 40px;
-    
+    line-height: 40px;   
 }
 .item-name span {
     background-color: #8c8c8c;
     float: right;
     width: 54px;
 }
+.featured-products {
+    margin-bottom: 100px;
+}
 .news-title {
-margin: 0 auto;
 text-align: center;
 font-size: 48px;
 font-family: 'Roboto',sans-serif;
 font-weight: 900;
 color: #515151;
-padding: 100px 0 78px 0;
+margin: 0px 0 76px 0;
 }
-h2::after {
-    content: '';
-    width: 165px;
-    height: 7px;
-    background: #1abc9c;
-    display: block;
-    margin:28px auto 0px;
-    }
 .news {
 float: left;
 margin: 0 auto;
+}
+.img-news {
+margin-bottom: 10px; 
 }
 .text1, .text2, .text3 {
     width: 350px;
@@ -132,15 +133,6 @@ margin: 0 auto;
     line-height: 26px;
     margin: 0 0 18px 0;
 }
-.text1::before {
-    content: '';
-    width: 350px;
-    height: 264px;
-    display: block;
-    background-image: url(../img/img1.jpg);
-    background-size: cover;
-    background-position: center;
-}
 .text1::after {
     content: '';
     width: 136px;
@@ -149,15 +141,6 @@ margin: 0 auto;
     display: block;
     margin-top: 14px;
 }
-.text2::before {
-    content: '';
-    width: 350px;
-    height: 264px;
-    display: block;
-    background-image: url(../img/img2.jpg);
-    background-size: cover;
-    background-position: center;
-}
 .text2::after {
     content: '';
     width: 136px;
@@ -165,15 +148,6 @@ margin: 0 auto;
     background: #1abc9c;
     display: block; 
     margin-top: 14px;
-}
-.text3::before {
-    content: '';
-    width: 350px;
-    height: 264px;
-    display: block;
-    background-image: url(../img/img3.jpg);
-    background-size: cover;
-    background-position: center;
 }
 .text3::after {
     content: '';
@@ -187,8 +161,7 @@ margin: 0 auto;
 margin-right: 30px;
 }
 .button {
-    width: 160px;
-    height: 50px;
+    padding:  16px 40px 16px 40px; 
     color: white;
     background: #4ec6ab;
     font-size: 16px;
@@ -198,9 +171,6 @@ margin-right: 30px;
     text-align: center;
     line-height: 50px;
     text-decoration: none;
-}
-.main {
-    padding-bottom: 82px;
 }
 .clearfix::after {
     display: table;
