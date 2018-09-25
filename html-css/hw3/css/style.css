@@ -9,23 +9,31 @@ padding: 30px 0 82px 0;
 .logotipe {
     float: left;
     margin: 0 auto;
-    /* margin-right: 515px; */
+}
+.logotipe-link {
+    color: black;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 .logotipe::first-letter {
     color: #1abc9c;
     font-weight: 900;
 }
+.main-nav {
+    float: right;
+    clear: right;
+}
 .main-menu {
     margin: 0 auto;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
 .main-menu-item {
+    float: left;
     list-style: none;
     font-size: 16px;
-    float: right;
     padding: 7px 0px;
 }
 .main-menu-link {
@@ -35,7 +43,7 @@ padding: 30px 0 82px 0;
 .main-menu-link:hover {
     color: #4ec6ab;
 }
-.main-menu-item:not(:nth-child(1)) {
+.main-menu-item:not(:nth-child(6n)) {
     margin-right: 34px;
 }
 .main {
